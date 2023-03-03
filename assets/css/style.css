@@ -1,0 +1,155 @@
+@import url(../css/clash-display.css);
+
+:root{
+    --c-dark: #121314;
+    --c-brand: #4e57d4;
+    --c-brand-light: #6970dd;
+    --c-body: #727272;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --transition: all 0.5s ease; 
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-body);
+}
+h1, h2, h3, h4, h5, h6,
+ .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 600;
+    color: var(--c-dark);
+ }
+
+a{
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+ }
+ a:hover{
+    color: var(--c-brand-light);
+ }
+ img{
+    max-width: 100%;
+    height: auto;
+ }
+
+.section-padding{
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+ }
+.logo{
+    height: 7rem;
+ }
+.navText .navLink{
+    font-weight: 500;
+    color: var(--c-dark);
+    margin-right: 2.3rem;
+    font-size: 1.7rem;
+}
+.navBar{
+    box-shadow: var(--box-shadow);
+}
+.display1{
+    font-size: 7rem;
+}
+.display3{
+    font-size: 5.4rem;
+}
+.display2{
+    font-size: 2.4rem;
+}
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.233)), url(../imgs/background.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.btn-logo{
+    border-radius: 0;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.btn2-logo{
+    border-radius: 0;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Serviços*/
+
+.section-title{
+    margin-bottom: 4rem;
+}
+.section-title .line{
+    width: 6rem;
+    height: 0.4rem;
+    background-color: var(--c-brand);
+    margin: 1.6rem auto 2.4rem auto;
+}
+.section-title p{
+    max-width: 50rem;
+    margin: auto;
+    font-size: 1.8rem;
+}
+.image-zoom{
+    position: relative;
+    overflow: hidden;
+}
+.image-zoom-wrappere{
+    overflow: hidden;
+    position: relative;
+}
+.image-zoom-wrappere img{
+    transition: var(--transition);
+    height: 500px;
+    width: 600px;
+}
+.image-zoom:hover .image-zoom-wrappere img{
+    transform: scale(1.1);
+}
+.portfolio-item .iconbox{
+    color: white;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.portfolio-item:hover .iconbox{
+    top: 50%;
+    opacity: 1;
+}
+
+/*media queries*/
+@media (max-width: 600px){
+    .display1{
+        font-size: 4.5rem;
+    }
+}
+@media (max-width: 360px){
+    .display1{
+        font-size: 4rem;
+    }
+    .display2{
+        font-size: 2rem;
+    }
+    .btn-logo{
+        border-radius: 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .btn2-logo{
+        border-radius: 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
