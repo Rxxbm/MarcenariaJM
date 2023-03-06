@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcenaria - JM</title>
+    <title>JM - Marcenaria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top navBar">
@@ -35,27 +36,27 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
       <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-down">
                 <div class="col-12">
-                    <h1 class="text-uppercase text-white display1 fw-semibold">Marcenaria JM</h1>
+                    <h1 class="text-uppercase text-white display1 fw-semibold">JM Marcenaria</h1>
                     <h5 class="display2 text-white mt-3">Transformando ideias em realidade: O talento de um marceneiro para criar móveis personalizados e únicos.</h5>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-primary text-uppercase btn-logo">Entre em Contato</a>
-                        <a href="#" class="btn btn-dark text-uppercase btn2-logo">Trabalhos</a>
+                        <a href="#contato" class="btn btn-primary text-uppercase btn-logo">Entre em Contato</a>
+                        <a href="#trabalhos" class="btn btn-dark text-uppercase btn2-logo">Trabalhos</a>
                     </div>
                 </div>
             </div>
         </div>
       </section>
 
-      <section id="trabalhos" class="section-padding border-top">
+      <section  class="section-padding" data-aos="flip-right" data-aos-duration="1900">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <div class="section-title">
+                    <div class="section-title" id="trabalhos">
                         <h1 class="fw-semibold display3">Trabalhos</h1>
                         <div class="line"></div>
                         <p>Cada peça que crio é única e personalizada, feita com paixão e habilidade para atender às necessidades específicas do meu cliente.</p>
@@ -68,7 +69,7 @@
                         <div class="image-zoom-wrappere">
                             <img src="./assets/imgs/project01.jpg" alt="">
                         </div>
-                        <a href="./assets/imgs/project01.jpg" data-fancybox="gallery" data-caption="Caption #1" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+                        <a href="./assets/imgs/project01.jpg" data-fancybox="gallery" data-caption="Armário de Banheiro" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -76,15 +77,15 @@
                         <div class="image-zoom-wrappere">
                             <img src="./assets/imgs/project02.jpg" alt="">
                         </div>
-                        <a href="./assets/imgs/project02.jpg" data-fancybox="gallery" data-caption="Caption #2" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+                        <a href="./assets/imgs/project02.jpg" data-fancybox="gallery" data-caption="Armário de Banheiro" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="portfolio-item image-zoom ">
                         <div class="image-zoom-wrappere">
-                            <img src="./assets/imgs/project03.jpg" alt="">
+                            <img src="./assets/imgs/hero.jpg" alt="">
                         </div>
-                        <a href="./assets/imgs/project03.jpg" data-fancybox="gallery" data-caption="Caption #3" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+                        <a href="./assets/imgs/hero.jpg" data-fancybox="gallery" data-caption="Caption #3" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -100,7 +101,7 @@
                         <div class="image-zoom-wrappere">
                             <img src="./assets/imgs/project05.jpg" alt="">
                         </div>
-                        <a href="./assets/imgs/project05.jpg" data-fancybox="gallery" data-caption="Caption #5" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+                        <a href="./assets/imgs/project05.jpg" data-fancybox="gallery" data-caption="Divisória" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -111,8 +112,119 @@
                         <a href="./assets/imgs/project06.jpg" data-fancybox="gallery" data-caption="Caption #6" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item image-zoom ">
+                        <div class="image-zoom-wrappere">
+                            <img src="./assets/imgs/project07.jpg" alt="" style="height: 500px;">
+                        </div>
+                        <a href="./assets/imgs/project07.jpg" data-fancybox="gallery" data-caption="Caption #6" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item image-zoom ">
+                        <div class="image-zoom-wrappere">
+                            <img src="./assets/imgs/project08.jpg" alt="" style="height: 500px;">
+                        </div>
+                        <a href="./assets/imgs/project08.jpg" data-fancybox="gallery" data-caption="Caption #6" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item image-zoom ">
+                        <div class="image-zoom-wrappere">
+                            <img src="./assets/imgs/project09.jpg" alt="" style="height: 500px;">
+                        </div>
+                        <a href="./assets/imgs/project09.jpg" data-fancybox="gallery" data-caption="Caption #6" class="iconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></a>
+                    </div>
+                </div>
             </div>
         </div>
+      </section>
+
+      <section class="section-padding border-top" data-aos="fade-up" data-aos-duration="1900" id="servicos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h1 class="fw-semibold display3">Serviços</h1>
+                        <div class="line"></div>
+                        <p>Com 37 anos de experiência no ramo, estou comprometido em fornecer produtos de qualidade e um serviço excepcional aos meus clientes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service text-center theme-shadow p-lg-5 p-5">
+                        <div class="iconbox service-icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
+                        </div>
+                        <h5 class="display2">Criação de Móveis Sob Medida</h5>
+                        <p class="p-service">Crie o móvel dos seus sonhos com a nossa habilidade em marcenaria artesanal, onde cada peça é cuidadosamente projetada e construída sob medida para se encaixar perfeitamente no seu espaço e estilo de vida.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service text-center theme-shadow p-lg-5 p-5">
+                        <div class="iconbox service-icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M240 0c4.6 0 9.2 1 13.4 2.9L441.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.7 363.2c-16.7 8-36.1 8-52.8 0C41.3 420.7 .5 239.2 0 140c-.1-26.2 16.3-47.9 38.3-57.2L226.7 2.9C230.8 1 235.4 0 240 0zm0 66.8V444.8C378 378 415.1 230.1 416 141.4L240 66.8l0 0z"/></svg>
+                        </div>
+                        <h5 class="display2">Garantia e Reparo <br> 5 anos</h5>
+                        <p class="p-service">Entendo a importância da qualidade e da durabilidade do meu trabalho. Por essa razão, ofereço garantia e reparo para todos os projetos que eu executo.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service text-center theme-shadow p-lg-5 p-5">
+                        <div class="iconbox service-icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M240 0c4.6 0 9.2 1 13.4 2.9L441.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.7 363.2c-16.7 8-36.1 8-52.8 0C41.3 420.7 .5 239.2 0 140c-.1-26.2 16.3-47.9 38.3-57.2L226.7 2.9C230.8 1 235.4 0 240 0zm0 66.8V444.8C378 378 415.1 230.1 416 141.4L240 66.8l0 0z"/></svg>
+                        </div>
+                        <h5 class="display2">Garantia e Reparo</h5>
+                        <p class="p-service">Entendo a importância da qualidade e da durabilidade do meu trabalho. Por essa razão, ofereço garantia e reparo para todos os projetos que eu executo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="section-padding contact-pad border-top" data-aos="fade-up" data-aos-duration="1900" id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <div class="section-title">
+                        <h1 class="fw-semibold display2">Formas de Contato</h1>
+                        <div class="line"></div>
+                        <p>Estou disponível para atender às suas necessidades de marcenaria. Entre em contato comigo e eu retornarei o mais breve possível. Você também pode me enviar um e-mail ou ligar para o número fornecido. Estou ansioso para ouvir suas ideias e trabalhar com você para criar a peça de marcenaria perfeita para o seu espaço.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="section-title display2">
+                        <h2>Formulário</h2>
+                        <form>
+                            <div class="mb-3 my-3">
+                              <input type="email" class="form-control input-contact" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entre com seu e-mail">
+                            </div>
+                            <div class="mb-3 my-3">
+                              <input type="text" class="form-control input-contact" id="exampleInputPassword1" placeholder="Entre com seu nome">
+                            </div>
+                            <div class="form-floating">
+                                <label for="" style="color: black;">Mensagem:</label> <br>
+                                <textarea class="form-control" name="" id="" cols="30" rows="10" style="height: 100px; font-size: 1.8rem;"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary display4 my-3">Enviar</button>
+                        </form>
+                        <div class="container my-3">
+                            <p>OU</p>
+                            <div class="contact my-3">
+                                <h3>Entre em contato via whatsapp</h3>
+                                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521967634407"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              
+            </div>
+        </div>
+       
       </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -121,6 +233,8 @@
     <script>Fancybox.bind('[data-fancybox="gallery"]', {
         // Your custom options
       });</script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 </body>
 </html>
